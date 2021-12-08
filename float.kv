@@ -1,0 +1,16 @@
+<Button>:
+    font_size: 20
+    color: 0.3,0.6,0.7,1
+    size_hint: 0.3,0.3
+<FloatLayout>:
+    Button:
+        id: btn1
+        pos_hint: {"x":0.5,"top":1}
+        text: "Button1" if btn1.state=="normal" else "Click Here"
+        background_color:0.3,0.4,0.5,1
+    
+    Button:
+        id: btn2
+        pos_hint: {"x":0.5,"top":0.5}
+        text: "Button2" if btn2.state=="normal" else "Click Here"
+        background_color: 0.2,0.2,0.4,1
